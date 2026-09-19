@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">main</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name Surname:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="date">Select your birthdate:</label><br>
+                    <input type="date" id="date" name="date">
+                </div>
+                <br>
+                <div>
+                    <label for="subject">Subject:</label><br>
+                    <select name="subject">
+                        <option value="general">General</option>
+                        <option value="support">Support</option>
+                        <option value="project">Submit a proposal</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" rows="4" cols="30"></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Efe Pehlivan.</p>
+    </footer>
+</body>
+</html>
